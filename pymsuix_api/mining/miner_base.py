@@ -104,7 +104,6 @@ class miner(object):
             'elapsed': 0,
             'found-blocks': 0,
             'get-works': 0,
-            
         }
         self.pools = []
         self.GPUs = []

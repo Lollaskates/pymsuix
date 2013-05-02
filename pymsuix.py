@@ -1,7 +1,8 @@
 import pdb
-from pymsuix_api.api_cgminer import cgminer
+from pymsuix_api.manager import MsuixManager
 
-c = cgminer()
+Manager = MsuixManager()
+
 
 print c.hello
 
